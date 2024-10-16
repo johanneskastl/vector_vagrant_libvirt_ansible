@@ -32,3 +32,6 @@
 
 - name: 'Run playbook-all_nodes-install_vector.yml'
   ansible.builtin.import_playbook: playbook-all_nodes-install_vector.yml
+
+- name: 'Run playbook-all_nodes-configure_and_start_vector.yml'
+  ansible.builtin.import_playbook: playbook-all_nodes-configure_and_start_vector.yml
